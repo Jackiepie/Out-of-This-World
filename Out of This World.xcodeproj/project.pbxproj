@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C8E0B441CCA1CAC00571B45 /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C8E0B431CCA1CAC00571B45 /* AstronomicalData.m */; };
 		8CC5A9051C64DC96001D089E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5A9041C64DC96001D089E /* main.m */; };
 		8CC5A9081C64DC96001D089E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5A9071C64DC96001D089E /* AppDelegate.m */; };
 		8CC5A90E1C64DC96001D089E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC5A90C1C64DC96001D089E /* Main.storyboard */; };
@@ -15,7 +16,6 @@
 		8CC5A9161C64DC97001D089E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC5A9141C64DC97001D089E /* LaunchScreen.storyboard */; };
 		8CC5A9211C64DC97001D089E /* Out_of_This_WorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5A9201C64DC97001D089E /* Out_of_This_WorldTests.m */; };
 		8CC5A96A1C64E27B001D089E /* OTWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC5A9691C64E27B001D089E /* OTWTableViewController.m */; };
-		8CC996791C64E788003CC6AD /* AstronomicalData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC996781C64E788003CC6AD /* AstronomicalData.m */; };
 		8CC9967E1C64E97F003CC6AD /* OTWSpaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC9967D1C64E97F003CC6AD /* OTWSpaceObject.m */; };
 		8CC996891C65B7EF003CC6AD /* Earth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC9967F1C65B7EF003CC6AD /* Earth.jpg */; };
 		8CC9968A1C65B7EF003CC6AD /* EinsteinRing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8CC996801C65B7EF003CC6AD /* EinsteinRing.jpg */; };
@@ -42,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C8E0B421CCA1CAC00571B45 /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AstronomicalData.h; sourceTree = "<group>"; };
+		8C8E0B431CCA1CAC00571B45 /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AstronomicalData.m; sourceTree = "<group>"; };
 		8CC5A9001C64DC96001D089E /* Out of This World.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Out of This World.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC5A9041C64DC96001D089E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CC5A9061C64DC96001D089E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,8 +58,6 @@
 		8CC5A9221C64DC97001D089E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8CC5A9681C64E27B001D089E /* OTWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OTWTableViewController.h; path = ../OTWTableViewController.h; sourceTree = "<group>"; };
 		8CC5A9691C64E27B001D089E /* OTWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OTWTableViewController.m; path = ../OTWTableViewController.m; sourceTree = "<group>"; };
-		8CC996771C64E788003CC6AD /* AstronomicalData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AstronomicalData.h; path = "../../../../Downloads/Astronmical-Data-Model/AstronomicalData.h"; sourceTree = "<group>"; };
-		8CC996781C64E788003CC6AD /* AstronomicalData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AstronomicalData.m; path = "../../../../Downloads/Astronmical-Data-Model/AstronomicalData.m"; sourceTree = "<group>"; };
 		8CC9967C1C64E97F003CC6AD /* OTWSpaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTWSpaceObject.h; sourceTree = "<group>"; };
 		8CC9967D1C64E97F003CC6AD /* OTWSpaceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTWSpaceObject.m; sourceTree = "<group>"; };
 		8CC9967F1C65B7EF003CC6AD /* Earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Earth.jpg; sourceTree = "<group>"; };
@@ -148,8 +148,8 @@
 				8CC996861C65B7EF003CC6AD /* Saturn.jpg */,
 				8CC996871C65B7EF003CC6AD /* Uranus.jpg */,
 				8CC996881C65B7EF003CC6AD /* Venus.jpg */,
-				8CC996771C64E788003CC6AD /* AstronomicalData.h */,
-				8CC996781C64E788003CC6AD /* AstronomicalData.m */,
+				8C8E0B421CCA1CAC00571B45 /* AstronomicalData.h */,
+				8C8E0B431CCA1CAC00571B45 /* AstronomicalData.m */,
 				8CC5A9041C64DC96001D089E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -277,8 +277,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CC996791C64E788003CC6AD /* AstronomicalData.m in Sources */,
 				8CC5A9111C64DC97001D089E /* Out_of_This_World.xcdatamodeld in Sources */,
+				8C8E0B441CCA1CAC00571B45 /* AstronomicalData.m in Sources */,
 				8CC996951C6620A7003CC6AD /* OTWViewController.m in Sources */,
 				8CC9967E1C64E97F003CC6AD /* OTWSpaceObject.m in Sources */,
 				8CC5A9081C64DC96001D089E /* AppDelegate.m in Sources */,
